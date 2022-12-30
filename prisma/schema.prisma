@@ -11,7 +11,7 @@ datasource db {
 }
 
 model User {
-  id          Int         @id @default(autoincrement())
+  id          String      @id
   repo_name   String
   token_id    Int
   GithubToken GithubToken @relation(fields: [token_id], references: [id])

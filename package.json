@@ -27,9 +27,12 @@
     "@octokit/auth-app": "^4.0.7",
     "@octokit/core": "^4.1.0",
     "@prisma/client": "^4.8.0",
+    "axios": "^1.2.1",
+    "dotenv": "^16.0.3",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
-    "rxjs": "^7.2.0"
+    "rxjs": "^7.2.0",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@nestjs/cli": "^9.0.0",
